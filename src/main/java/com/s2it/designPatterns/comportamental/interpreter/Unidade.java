@@ -1,0 +1,25 @@
+package com.s2it.designPatterns.comportamental.interpreter;
+
+public class Unidade extends Expressao {
+
+	public String Um() {
+		return "I";
+	}
+
+	public String Quatro() {
+		return "IV";
+	}
+
+	public String Cinco() {
+		return "V";
+	}
+
+	public String Nove() {
+		return "IX";
+	}
+
+	public int Multiplicador() {
+		return 1;
+	}
+
+}
